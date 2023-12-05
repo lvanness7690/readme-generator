@@ -9,13 +9,13 @@ function renderLicenseBadge(license) {
     case 'MIT':
       badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
       break;
-    case 'Apache 2.0':
+    case 'Apache':
       badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
       break;
-    case 'GPL 3.0':
+    case 'GPL':
       badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
       break;
-    case 'BSD 3':
+    case 'BSD':
       badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
       break;
 }
@@ -83,7 +83,6 @@ ${data.contribution}
 ## Test
 ${data.test}
 
-## License
 ${renderLicenseSection(data.license)}
 
 ## Questions
