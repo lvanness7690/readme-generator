@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Use this application to create a professional README file
+Use this application to create a professional README file using Markdown
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,16 +13,16 @@ Use this application to create a professional README file
 * [Questions](#questions)
 
 ## Installation
-Follow the prompts and provide an answer for each question
+Run the application using node index.js and then follow the prompts to answer each question
 
 ## Usage
-This README is meant to be used on a github repository 
+The application is inteded to be used to create README files for a Github repository
 
 ## Contribution
-Starter code provided by FSF Bootcamp
+FSF Bootcamp starter code provided
 
 ## Test
-Run node index.js in the parent folder to begin the application
+Use node to run the application, answers the questions and view your README file
 
 
   ## License
